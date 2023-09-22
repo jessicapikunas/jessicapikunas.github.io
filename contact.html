@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <nav class="nav">
+      <ul class="nav ul">
+        <li class="nav ul li"><a href="home.html">Home</a></li>
+        <li class="nav ul li"><a href="extracurricular.html">Extracurricular Activities</a></li>
+        <li class="nav ul li"><a href="community.html">Community &amp; Leadership</a></li>
+        <li class="nav ul li"><a href="projects.html">Projects</a></li>
+        <li class="nav ul li a"><a href="contact.html">Contact Me</a></li>
+      </ul>
+    </nav>
+    <header>
+        <h1>Contact Me</h1>
+      </header>
+      <a href="mail.to: jessicapikunas@gmail.com">Send Email</a>
+      <form id="contact-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="subject">Subject:</label>
+        <input type="text" id="subject" name="subject" required>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+        <button type="submit" id="submit-button">Submit</button>
+      </form>
+    <footer>
+      <p>© 2023 Jessica Pikunas Portfolio. All rights reserved.</p>
+    </footer>
+    <script src="sendEmail.js"></script>
+  </body>
+</html>
